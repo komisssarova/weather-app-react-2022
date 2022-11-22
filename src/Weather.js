@@ -66,7 +66,7 @@ const Weather = (props) => {
     );
   } else {
     search();
-    return "Loading...";
+    return "";
   }
 };
 
